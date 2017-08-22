@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Text Color"
+        app:showAsAction="always"
+        android:id="@+id/Text_color" />
+
+    <item android:title="Blue"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/Blue" />
+
+    <item android:title="Yellow"
+        app:showAsAction="never"
+        android:orderInCategory="101"
+        android:id="@+id/Yellow"/>
+
+    <item android:title="Red"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        android:id="@+id/Red"/>
+</menu>
